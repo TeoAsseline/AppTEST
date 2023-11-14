@@ -11,7 +11,7 @@ namespace AppTEST.Client.Test
         [TestMethod]
         public void InegaliteINT()
         {
-            Assert.Equals(2, 3);
+            Assert.AreNotEqual(2, 3);
         }
         public void EgaliteBOOL()
         {
