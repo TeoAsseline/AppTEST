@@ -8,5 +8,10 @@ namespace AppTEST.Client.Test
         {
             Assert.Equals(1+2, 3);
         }
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Assert.Equals(2, 3);
+        }
     }
 }
