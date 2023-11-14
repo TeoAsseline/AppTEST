@@ -13,5 +13,10 @@ namespace AppTEST.Client.Test
         {
             Assert.AreNotEqual(2, 3);
         }
+        [TestMethod]
+        public void EgaliteSTRING()
+        {
+            Assert.AreEqual("a","a");
+        }
     }
 }
