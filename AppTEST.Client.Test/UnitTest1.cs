@@ -4,16 +4,16 @@ namespace AppTEST.Client.Test
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void EgaliteINT()
         {
             Assert.Equals(1+2, 3);
         }
         [TestMethod]
-        public void TestMethod2()
+        public void InegaliteINT()
         {
             Assert.Equals(2, 3);
         }
-        public void TestMethod3()
+        public void EgaliteBOOL()
         {
             Assert.Equals(true,true);
         }
