@@ -6,7 +6,7 @@ namespace AppTEST.Client.Test
         [TestMethod]
         public void EgaliteINT()
         {
-            Assert.Equals(1+2, 3);
+            Assert.AreEqual(1+2, 3);
         }
         [TestMethod]
         public void InegaliteINT()
