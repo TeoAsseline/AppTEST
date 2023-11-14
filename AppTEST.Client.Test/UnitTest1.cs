@@ -13,5 +13,9 @@ namespace AppTEST.Client.Test
         {
             Assert.Equals(2, 3);
         }
+        public void TestMethod3()
+        {
+            Assert.Equals(true,true);
+        }
     }
 }
