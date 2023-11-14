@@ -13,9 +13,5 @@ namespace AppTEST.Client.Test
         {
             Assert.AreNotEqual(2, 3);
         }
-        public void EgaliteBOOL()
-        {
-            Assert.Equals(true,true);
-        }
     }
 }
