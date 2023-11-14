@@ -6,17 +6,17 @@ namespace AppTEST.Client.Test
         [TestMethod]
         public void EgaliteINT()
         {
-            Assert.AreEqual(1+2,3);
+            Assert.AreEqual(1+2 , 3);
         }
         [TestMethod]
         public void InegaliteINT()
         {
-            Assert.AreNotEqual(2,3);
+            Assert.AreNotEqual(2 , 3);
         }
         [TestMethod]
         public void EgaliteSTRING()
         {
-            Assert.AreEqual("a","a");
+            Assert.AreEqual("a" , "a");
         }
     }
 }
